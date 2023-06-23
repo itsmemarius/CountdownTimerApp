@@ -1,0 +1,42 @@
+name: ui_countdown_timer
+description: A UI countdown timer challenge.
+author: Christophe Bonello
+homepage: https://github.com/cbonello/
+repository: https://github.com/cbonello/ui_countdown_timer
+issue_tracker: https://github.com/cbonello/ui_countdown_timer/issues
+
+version: 1.0.0+2
+
+environment:
+  sdk: ">=2.4.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^0.13.0
+  cupertino_icons: ^1.0.0
+  equatable: ^1.2.0
+  flutter_bloc: ^0.21.0
+  path_provider: ^1.6.0
+  url_launcher: ^5.7.0
+  vibration: ^1.7.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pedantic: ^1.8.0
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: BebasNeue
+      fonts:
+        - asset: assets/fonts/BebasNeue-Regular.ttf
+
+  assets:
+    - assets/audio/alarm_new_nokia_2013.mp3
+    - assets/audio/alarm_loving_you.mp3
+    - assets/audio/alarm_clock.mp3
+    - assets/audio/simple_marimba.mp3
+
